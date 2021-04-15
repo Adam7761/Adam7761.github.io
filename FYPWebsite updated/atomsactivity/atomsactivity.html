@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Atoms Activity</title>
+
+</head>
+<body>
+
+    <div id="root">
+        <div id="textcolour">
+            <div id="center1">
+
+                <br><h2><strong>Atoms Activity</strong></h2><br>
+
+            <p><strong>Word Bank:</strong> Electrons - Electric force - Nucleus - Negatively - Positively</p></div><br />
+
+<p>Atoms are the smallest know matter to mankind. Each atom consists of a <input type="text" class="check3" id="input1" size="15" /><text class="button002" id="check1"></text>, 
+    and one or more <input id="input2" size="15" /><text class="button002" id="check2"></text>. 
+    However most of the atom is empty space. With the rest of the atom consisting of positively charged nucleus of protons and neutrons surrounded by a cloud of <input id="input3" size="15" /> <text class="button002" id="check3"></text> 
+    charged electrons. The nucleus is small and dense in comparison to the electrons, which are the lightest charged particles in nature. Electrons are attracted to <input id="input4" size="15" /><text class="button002" id="check4"></text>, 
+    charged elements that comes into their <input id="input5" size="15" /><text class="button002" id="check5"></text>.</p>
+
+            <div id="disappear"><div id="center1"><button class="btn" onclick="submit1()">Submit</button></div></div><br />
+            <div id="center1"><p id="message"></p><p id="reload"></p></div>
+            
+                <br />
+            <br />
+            </div>
+    </div>
+    <script>
+        var g;
+        var h;
+        var i;
+        var j;
+        var k;
+        function submit1() {
+            b = input1.value;
+            c = input2.value;
+            d = input3.value;
+            e = input4.value;
+            f = input5.value;
+            if (b == "Nucleus" || b == "nucleus") {
+                g = 1;
+                input1.value = b;
+                check1.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input1.value = b;
+                check1.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (c == "Electrons" || c == "electrons") {
+                h = 1
+                input2.value = c;
+                check2.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input2.value = c;
+                check2.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (d == "Negatively" || d == "negatively") {
+                i = 1;
+                input3.value = d;
+                check3.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input3.value = d;
+                check3.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (e == "Positively" || e == "positively") {
+                j = 1;
+                input4.value = e;
+                check4.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input4.value = e;
+                check4.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (f == "Electric force" || f == "electric force") {
+                k = 1;
+                input5.value = f;
+                check5.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input5.value = f;
+                check5.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (g == 1 && h == 1 && i == 1 && j == 1 && k == 1) {
+                message.innerHTML = "Congratulation! Press The Reset Button to Start Again";
+                disappear.innerHTML = "";
+                reload.innerHTML = "<div id=center1><button class=btn onclick=repeat1()>Reset</button></div>";
+            }
+        }
+
+            function repeat1() {
+                location.reload();
+            }
+    </script>
+</body>
+</html>

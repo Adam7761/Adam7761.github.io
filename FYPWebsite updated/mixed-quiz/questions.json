@@ -1,0 +1,84 @@
+[
+  {
+    "question": "What is the Nucleus held together by?",
+    "choice1": "Strong Force",
+    "choice2": "Gravitational Force",
+    "choice3": "Normal Force",
+    "choice4": "Electrical Force",
+    "answer": 1
+  },
+  {
+    "question": "What are Protons, Neutrons and Electrons made of?",
+    "choice1": "Quarks",
+    "choice2": "Muon",
+    "choice3": "Photon",
+    "choice4": "Gluon",
+    "answer": 1
+  },
+  {
+    "question": "Does adding a proton to an Atom make it a new element?",
+    "choice1": "Yes",
+    "choice2": "Partially",
+    "choice3": "Depends on the Atom",
+    "choice4": " No",
+    "answer": 1
+  },
+  {
+    "question": "Does adding a neutron to an Atom make it into an isotope?",
+    "choice1": "Yes",
+    "choice2": "Partially",
+    "choice3": "Depends on the Atom",
+    "choice4": " No",
+    "answer": 1
+  },
+  {
+    "question": "A example of a soild is?",
+    "choice1": "Water",
+    "choice2": "Salt",
+    "choice3": "lighting",
+    "choice4": "Flames",
+    "answer": 2
+  },
+  {
+    "question": "Are Plasma particles are spread out?",
+    "choice1": "Yes",
+    "choice2": "Partially",
+    "choice3": "Depends on the condition",
+    "choice4": " No",
+    "answer": 1
+  },
+  {
+    "question": "Can a Solid be turned directly into a gas?",
+    "choice1": "Yes",
+    "choice2": "Partially",
+    "choice3": "Depends on the condition",
+    "choice4": " No",
+    "answer": 1
+  },
+  {
+    "question": "What is the opposite process of Oxidation called?",
+    "choice1": "Thermal Decomposition",
+    "choice2": "Combustion",
+    "choice3": "Condensation",
+    "choice4": "Reduction",
+    "answer": 4
+  },
+  {
+    "question": "What particles are lost throughout Oxidation?",
+    "choice1": "Neutron",
+    "choice2": "Protons",
+    "choice3": "Electrons",
+    "choice4": "None",
+    "answer": 3
+  },
+  {
+    "question": "What kind of reaction is Combustion?",
+    "choice1": "Precipitation Reaction",
+    "choice2": "Combination reaction",
+    "choice3": "Exothermic reaction",
+    "choice4": "Displacement reaction",
+    "answer": 3
+  }
+
+]
+
