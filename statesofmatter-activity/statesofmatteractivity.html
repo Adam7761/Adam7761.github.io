@@ -2,22 +2,22 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <link rel="stylesheet" type="text/css" href="style.css">
-
+<!-- Header -->
 <head>
     <meta charset="utf-8" />
+    <!-- Title -->
     <title>States Of Matter Activity</title>
 
 </head>
 <body>
-
     <div id="root">
         <div id="textcolour">
             <div id="center1">
-
+                <!-- Title -->
                 <br><h2><strong>States Of Matter Activity</strong></h2><br>
-
+                <!--Word Bank  -->
             <p><strong>Word Bank:</strong> Conform - Hardly - Closely - Freely - Randomly</p></div><br />
-
+<!-- Text to used in activity -->
 <p>Matter is the content that makes up the universe everything that takes up space and has mass is known as matter.
     Solids are one of the states of matter. The particles in soilds are <input type="text" class="check3" id="input1" size="15" /><text class="button002" id="check1"></text>
     packed together. 
@@ -27,13 +27,13 @@
     Bose-Einstein condensate is a group of atoms cooled to within a hair of absolute zero.
     When they reach that temperature the atoms are <input id="input4" size="15" /><text class="button002" id="check4"></text> moving.
     Plasma is a state of matter that the particles move around <input id="input5" size="15" /><text class="button002" id="check5"></text>.</p>
-
+            <!--Button to disappear and then change to another one  -->
             <div id="disappear"><div id="center1"><button class="btn" onclick="submit1()">Submit</button></div></div><br />
             <div id="center1"><p id="message"></p><p id="reload"></p></div>
-            
                 <br />
             <br />
             </div>
+    <!--ID for answers  -->
     </div>
     <script>
         var g;
@@ -98,7 +98,6 @@
                 reload.innerHTML = "<div id=center1><button class=btn onclick=repeat1()>Reset</button></div>";
             }
         }
-
             function repeat1() {
                 location.reload();
             }

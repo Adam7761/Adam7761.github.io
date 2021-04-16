@@ -1,14 +1,14 @@
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       // User is signed in.
-  
+      //getting the element by ID
       document.getElementById("user_div").style.display = "block";
       document.getElementById("login_div").style.display = "none";
   
       var user = firebase.auth().currentUser;
   
       if(user != null){
-  
+        // user email id 
         var email_id = user.email;
         document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
   
@@ -22,7 +22,7 @@ firebase.auth().onAuthStateChanged(function(user) {
   
     }
   });
-  
+  //login function 
   function login(){
   
     var userEmail = document.getElementById("email_field").value;
@@ -39,7 +39,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     });
   
   }
-  
+  //logout function 
   function logout(){
     firebase.auth().signOut();
   }

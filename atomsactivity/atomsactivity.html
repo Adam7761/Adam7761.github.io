@@ -2,34 +2,33 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <link rel="stylesheet" type="text/css" href="style.css">
-
+<!-- Header -->
 <head>
     <meta charset="utf-8" />
     <title>Atoms Activity</title>
 
 </head>
 <body>
-
     <div id="root">
         <div id="textcolour">
             <div id="center1">
-
+                <!-- Header  -->
                 <br><h2><strong>Atoms Activity</strong></h2><br>
-
+                <!--Word bank displaying the words to be used in activity  -->
             <p><strong>Word Bank:</strong> Electrons - Electric force - Nucleus - Negatively - Positively</p></div><br />
-
+<!-- Text that will be shown to the user -->
 <p>Atoms are the smallest know matter to mankind. Each atom consists of a <input type="text" class="check3" id="input1" size="15" /><text class="button002" id="check1"></text>, 
     and one or more <input id="input2" size="15" /><text class="button002" id="check2"></text>. 
     However most of the atom is empty space. With the rest of the atom consisting of positively charged nucleus of protons and neutrons surrounded by a cloud of <input id="input3" size="15" /> <text class="button002" id="check3"></text> 
     charged electrons. The nucleus is small and dense in comparison to the electrons, which are the lightest charged particles in nature. Electrons are attracted to <input id="input4" size="15" /><text class="button002" id="check4"></text>, 
     charged elements that comes into their <input id="input5" size="15" /><text class="button002" id="check5"></text>.</p>
-
+            <!--The button will disapear after clicking submit to be changed to another button  -->
             <div id="disappear"><div id="center1"><button class="btn" onclick="submit1()">Submit</button></div></div><br />
             <div id="center1"><p id="message"></p><p id="reload"></p></div>
-            
                 <br />
             <br />
             </div>
+    <!--Input values IDs  -->
     </div>
     <script>
         var g;
@@ -94,7 +93,6 @@
                 reload.innerHTML = "<div id=center1><button class=btn onclick=repeat1()>Reset</button></div>";
             }
         }
-
             function repeat1() {
                 location.reload();
             }

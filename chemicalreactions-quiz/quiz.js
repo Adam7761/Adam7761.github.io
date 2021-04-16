@@ -28,7 +28,7 @@ fetch('questions.json')
 //points for correct answer
 const CORRECT_BONUS = 10;
 //number of questions
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 5;
 
 StartQuiz = () => {
     //used as a rest
