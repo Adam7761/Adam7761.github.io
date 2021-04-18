@@ -45,3 +45,22 @@ firebase.auth().onAuthStateChanged(function(user) {
     window.location.href = "/login.html";
   }
   
+  
+
+  //register
+  function register(){ 
+  var email = document.getElementById("email_field").value;
+  var password = document.getElementById("password_field").value;
+    firebase.auth().createUserWithEmailAndPassword(email, password)
+  .then((userCredential) => {
+    // Signed in 
+    var user = userCredential.user;
+    // ...
+  })
+  .catch((error) => {
+    var errorCode = error.code;
+    var errorMessage = error.message;
+    // ..
+  });
+  }
+  
