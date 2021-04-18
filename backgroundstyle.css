@@ -11,6 +11,7 @@ body{
     animation: change 8s ease-in-out infinite;
 }
 
+
 @keyframes change {
     0%{
         background-position: 0 50%;
