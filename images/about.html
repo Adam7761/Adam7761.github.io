@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Website title-->
+    <title>Chemistry4You</title>
+    <!--Linking the Css to HTML-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <!--Navigation Bar class-->
+        <div class="navbar">    
+           <ul>
+             <!--All the buttons in the navigation bar-->  
+            <li><a href="index.html">Home</a></li>
+            <li><a href="atoms.html">Atoms</a></li> 
+            <li><a href="chemicalreactions.html">Chemical Reactions</a></li> 
+            <li><a href="statesofmatter.html">States Of Matter</a></li>
+            <li><a href="quizzes.html">Quizzes</a></li>
+            <li class="active"><a href="about.html">About Us</a></li>
+            <li><div id="user_div" ><button style="color: black;" class="btn" onclick="logout()">Logout</button></div></li>  
+           </ul>
+        </div>
+    </header>
+<!--The website logo-->
+    <div class ="logo">
+        <img src="images/Chemistry 4 You.png" alt="Chemistry4You">
+
+    </div> 
+<!--Text that will be displayed on the website-->
+<div style="color: white;">
+<h1 style="text-align: center; font-size: 30px;">About Us</h1>
+  <p style="text-align: center;font-size: 20px;">  <br>Welcome to Chemistry4You, your number one source for all things Chemistry for year 7.
+    Chemistry4You was Founded in 2020 by Adam Gomma, in response to the COVID 19 Global pandemic 
+    resulting in students having to study and work from home. We're dedicated to giving you the very latest information regarding Chemistry, 
+    with a strong focus on placing you the student at the centre. We pride ourselves on the fact that out content is accessible to not only
+    the students of all abilites but to all the parents that are supporting their child in learning Chemistry.
+    All the content on the website is clearly explained and defined along with useful videos for the more difficult topics, 
+    links to additional information, as well as quizzes that can be completed once you are ready. 
+    We hope you enjoy learning on the website as much as we enjoyed providing the content to you. If you have any questions or comments, 
+    please don't hesitate to contact us.
+   <!--Space in text--> 
+    <br>Sincerely,
+    <br>  <br> Adam Gomma, <br> Founder & CEO </p>
+</div>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+  
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyAXAnCEIXBZgp1HzbuOg8P2qLMpksSuZ54",
+      authDomain: "final-year-project-38abd.firebaseapp.com",
+      projectId: "final-year-project-38abd",
+      storageBucket: "final-year-project-38abd.appspot.com",
+      messagingSenderId: "744183350618",
+      appId: "1:744183350618:web:88eca1bbea94557065df63",
+      measurementId: "G-LFB73S98GF"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+  
+  <!-- Firebase databse -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+  <!-- Firebase authentication -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+  
+  <!--Linking it to the Javascript -->
+  <script src="login.js"></script>
+  
+
+</body>
+</html>

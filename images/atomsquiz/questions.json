@@ -1,0 +1,60 @@
+[
+  {
+    "question": "What Charge are Protons?",
+    "choice1": "Positive",
+    "choice2": "Negative",
+    "choice3": "No Charge",
+    "choice4": "Static Charge",
+    "answer": 1
+  },
+  {
+    "question": "What Charge are Electrons?",
+    "choice1": "Positive",
+    "choice2": "Negative",
+    "choice3": "No Charge",
+    "choice4": "Static Charge",
+    "answer": 2
+  },
+  {
+    "question": "What Charge are Neutrons?",
+    "choice1": "Positive",
+    "choice2": "Negative",
+    "choice3": "No Charge",
+    "choice4": "Static Charge",
+    "answer": 3
+  },
+  {
+    "question": "How many Particles are Atoms made of?",
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "4",
+    "answer": 3
+  },
+  {
+    "question": "The number of protons in an atom is referred to as the?",
+    "choice1": "Atomic Number",
+    "choice2": "Compound Number",
+    "choice3": "Beta Number",
+    "choice4": "Gamma Number",
+    "answer": 0
+  },
+  {
+    "question": "What charged Protons are Electrons attracted to??",
+    "choice1": "Positive",
+    "choice2": "Negative",
+    "choice3": "No Charge",
+    "choice4": "Static Charge",
+    "answer": 1
+  },
+  {
+    "question": "How many Protons are in an Element?",
+    "choice1": "100",
+    "choice2": "200",
+    "choice3": "400",
+    "choice4": "Unique",
+    "answer": 4
+  }
+
+]
+

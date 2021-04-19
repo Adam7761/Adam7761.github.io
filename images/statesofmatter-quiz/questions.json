@@ -1,0 +1,76 @@
+[
+  {
+    "question": "How many States Of Matter are there?",
+    "choice1": "2",
+    "choice2": "3",
+    "choice3": "4",
+    "choice4": "5",
+    "answer": 4
+  },
+  {
+    "question": "How are Solids spaced?",
+    "choice1": "Loose",
+    "choice2": "Closely",
+    "choice3": "Conform To Shape",
+    "choice4": "Move Freely",
+    "answer": 2
+  },
+  {
+    "question": "How are liquids spaced?",
+    "choice1": "Loose",
+    "choice2": "Closely",
+    "choice3": "Conform To Shape",
+    "choice4": "Move Freely",
+    "answer": 3
+  },
+  {
+    "question": "How do Gasses move?",
+    "choice1": "Loose",
+    "choice2": "Closely",
+    "choice3": "Conform To Shape",
+    "choice4": "Move Freely",
+    "answer": 4
+  },
+  {
+    "question": "Does the volume of Liquid change if the temperature and pressure are constant?",
+    "choice1": "Yes",
+    "choice2": "Partially",
+    "choice3": "No",
+    "choice4": "Depends on Container",
+    "answer": 3
+  },
+  {
+    "question": "A example of Plasma is?",
+    "choice1": "Rain",
+    "choice2": "Snow",
+    "choice3": "Lighting",
+    "choice4": "Heat",
+    "answer": 3
+  },
+  {
+    "question": "A example of a soild is?",
+    "choice1": "Water",
+    "choice2": "Honey",
+    "choice3": "Sugar",
+    "choice4": "Blood",
+    "answer": 3
+  },
+  {
+    "question": "Can a liquid can be transformed into a solid through freezing?",
+    "choice1": "Yes",
+    "choice2": "Depends on the Liquid",
+    "choice3": "Partially",
+    "choice4": "No",
+    "answer": 1
+  },
+  {
+    "question": "Does Bose-Einstein condensate (BEC) start behaving as if it were a single atom after cooled to within a hair of absolute zero?",
+    "choice1": "Yes",
+    "choice2": "Depends on the Liquid",
+    "choice3": "Partially",
+    "choice4": "No",
+    "answer": 1
+  }
+
+]
+

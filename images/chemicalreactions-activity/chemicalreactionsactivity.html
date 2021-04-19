@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Title -->
+<head>
+    <meta charset="utf-8" />
+    <title>Chemical Reactions Activity</title>
+</head>
+<!--Body  -->
+<body>
+    <div id="root">
+        <div id="textcolour">
+            <div id="center1">
+                <!-- Title -->
+                <br><h2><strong>Chemical Reactions Activity</strong></h2><br>
+                <!-- Words to be used in activity -->
+            <p><strong>Word Bank:</strong> Products - Exothermic - Reactants - Atoms - Thermal</p></div><br />
+<!-- Text to be used in activity -->
+<p>Chemical reaction, which is a process in which one or more substances, which is known as the <input type="text" class="check3" id="input1" style="color: black !important;" size="15" /><text class="button002" id="check1"></text>, 
+    are converted to one or more different substances, which are called the <input id="input2" class="inputbox" size="15" /><text class="button002" id="check2"></text>. 
+    The substances used are either chemical elements or compounds. A chemical reaction rearranges the constituent of an <input id="input3" class="inputbox" size="15" /> <text class="button002" id="check3"></text> 
+    of the reactants to create different substances as products. Combustion is a chemical reaction which is a reaction caused by burning. The energy released from combustion is mostly  <input id="input4" class="inputbox" size="15" /><text class="button002" id="check4"></text> energy. 
+    This means that the reaction released is an <input id="input5" class="inputbox" size="15" /><text class="button002" id="check5"></text> reaction that releases energy to the surroundings.</p>
+            <!--Button to be replaced with another one-->
+            <div id="disappear"><div id="center1"><button class="btn" onclick="submit1()">Submit</button></div></div><br />
+            <div id="center1"><p id="message"></p><p id="reload"></p></div>
+                <br />
+            <br />
+            </div>
+    <!-- Input IDs for answers  -->
+    </div>
+    <script>
+        var g;
+        var h;
+        var i;
+        var j;
+        var k;
+        function submit1() {
+            b = input1.value;
+            c = input2.value;
+            d = input3.value;
+            e = input4.value;
+            f = input5.value;
+            if (b == "Reactants" || b == "reactants") {
+                g = 1;
+                input1.value = b;
+                check1.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input1.value = b;
+                check1.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (c == "Products" || c == "products") {
+                h = 1
+                input2.value = c;
+                check2.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input2.value = c;
+                check2.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (d == "Atoms" || d == "atoms") {
+                i = 1;
+                input3.value = d;
+                check3.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input3.value = d;
+                check3.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (e == "Thermal" || e == "thermal") {
+                j = 1;
+                input4.value = e;
+                check4.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input4.value = e;
+                check4.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (f == "Exothermic" || f == "exothermic") {
+                k = 1;
+                input5.value = f;
+                check5.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input5.value = f;
+                check5.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (g == 1 && h == 1 && i == 1 && j == 1 && k == 1) {
+                message.innerHTML = "Congratulation! Press The Reset Button to Start Again";
+                disappear.innerHTML = "";
+                reload.innerHTML = "<div id=center1><button class=btn onclick=repeat1()>Reset</button></div>";
+            }
+        }
+            function repeat1() {
+                location.reload();
+            }
+    </script>
+</body>
+</html>

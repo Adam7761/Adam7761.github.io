@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Header -->
+<head>
+    <meta charset="utf-8" />
+    <!-- Title -->
+    <title>States Of Matter Activity</title>
+
+</head>
+<body>
+    <div id="root">
+        <div id="textcolour">
+            <div id="center1">
+                <!-- Title -->
+                <br><h2><strong>States Of Matter Activity</strong></h2><br>
+                <!--Word Bank  -->
+            <p><strong>Word Bank:</strong> Conform - Hardly - Closely - Freely - Randomly</p></div><br />
+<!-- Text to used in activity -->
+<p>Matter is the content that makes up the universe everything that takes up space and has mass is known as matter.
+    Solids are one of the states of matter. The particles in soilds are <input type="text" class="check3" id="input1" style="color: black !important;" size="15" /><text class="button002" id="check1"></text>
+    packed together. 
+    The second states of matter is liquid. The particles in liquids <input id="input2" class="inputbox" size="15" /><text class="button002" id="check2"></text>
+    to the shape of the container that they are housed in. 
+    Another state of matter is Gas. Gas molecules are either very weak bonds or no bonds at all as a result they can move <input id="input3" class="inputbox"  size="15" /> <text class="button002" id="check3"></text>. 
+    Bose-Einstein condensate is a group of atoms cooled to within a hair of absolute zero.
+    When they reach that temperature the atoms are <input id="input4" class="inputbox" size="15" /><text class="button002" id="check4"></text> moving.
+    Plasma is a state of matter that the particles move around <input id="input5" class="inputbox" size="15" /><text class="button002" id="check5"></text>.</p>
+            <!--Button to disappear and then change to another one  -->
+            <div id="disappear"><div id="center1"><button class="btn" onclick="submit1()">Submit</button></div></div><br />
+            <div id="center1"><p id="message"></p><p id="reload"></p></div>
+                <br />
+            <br />
+            </div>
+    <!--ID for answers  -->
+    </div>
+    <script>
+        var g;
+        var h;
+        var i;
+        var j;
+        var k;
+        function submit1() {
+            b = input1.value;
+            c = input2.value;
+            d = input3.value;
+            e = input4.value;
+            f = input5.value;
+            if (b == "Closely" || b == "closely") {
+                g = 1;
+                input1.value = b;
+                check1.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input1.value = b;
+                check1.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (c == "Conform" || c == "conform") {
+                h = 1
+                input2.value = c;
+                check2.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input2.value = c;
+                check2.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (d == "Freely" || d == "freely") {
+                i = 1;
+                input3.value = d;
+                check3.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input3.value = d;
+                check3.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (e == "Hardly" || e == "hardly") {
+                j = 1;
+                input4.value = e;
+                check4.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input4.value = e;
+                check4.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (f == "Randomly" || f == "randomly") {
+                k = 1;
+                input5.value = f;
+                check5.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input5.value = f;
+                check5.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (g == 1 && h == 1 && i == 1 && j == 1 && k == 1) {
+                message.innerHTML = "Congratulation! Press The Reset Button to Start Again";
+                disappear.innerHTML = "";
+                reload.innerHTML = "<div id=center1><button class=btn onclick=repeat1()>Reset</button></div>";
+            }
+        }
+            function repeat1() {
+                location.reload();
+            }
+    </script>
+</body>
+</html>
